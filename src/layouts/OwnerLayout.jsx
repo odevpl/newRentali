@@ -22,7 +22,7 @@ export default function OwnerLayout() {
 
   const handleLogout = () => {
     localStorage.removeItem("rentali_user");
-    sessionStorage.removeItem("rentali_user"); // 🔥 ważne!
+    sessionStorage.removeItem("rentali_user");
     navigate("/", { replace: true });
   };
 
